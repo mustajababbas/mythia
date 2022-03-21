@@ -22,7 +22,18 @@ function Home(){
         infinite:true,
         vertical:true,
         arrows:false,
-        swipe:false
+        swipe:false,
+        responsive:
+        [
+            {
+                breakpoint:992,
+                settings:{
+                    slidesToShow:3,
+                    slidesToScroll:3,
+                    vertical:false,
+                }
+            }
+        ]
       };
 
     const [qty,setQty] = useState(0);

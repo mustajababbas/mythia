@@ -64,7 +64,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 710px;
+    min-height: 800px;
     height: 100vh;
     overflow: hidden;
     position: relative;
